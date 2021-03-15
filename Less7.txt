@@ -1,0 +1,14 @@
+1.Front Controller: Kernel.php
+В config/routing.php описание при каком uri какой контроллер обрабатывает 
+запрос.
+Контроллеры: 
+- MainController
+- OrderController
+- ProductController
+- UserController
+
+
+2.Класс Registry используется как класс-поисковик для :
+- получения роутов из класса ContainerBuilder по ключу route_collection.
+- Для хранения/получения параметров из конфигурационного файла 
+parameters.php.
